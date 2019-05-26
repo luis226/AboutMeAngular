@@ -1,3 +1,17 @@
-<p>
-  education works!
-</p>
+<div class="container">
+  <h6>My Education</h6>
+  <ul class="heroes">
+    <li *ngFor="let school of Schools" class="no-bullet">
+      <div class="row">
+        <div class="col-3">
+            <img class="img-fluid max-width" src={{school.logo}}>
+        </div>
+        <div col="col9">
+          <div class="text-school-name">{{school.name}}</div>
+          <div class="text-years">From <span>{{school.periodStart}}</span> to <span>{{school.periodEnd}}</span></div>
+          <div class="text-school-description">{{school.description}}</div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

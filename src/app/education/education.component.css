@@ -1,0 +1,20 @@
+.no-bullet {
+    list-style-type: none;
+}
+
+.text-years{
+    color:gray;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.text-school-name{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.text-school-description{
+    font-size: 12px;
+    text-align: justify;
+    
+}

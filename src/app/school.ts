@@ -1,6 +1,8 @@
 export class School {
     id: number;
-    periodStart: number;
-    periodEnds: number;
+    periodStart: Date;
+    periodEnd: Date;
     logo: String;
+    name: String;
+    description: String;
   }
