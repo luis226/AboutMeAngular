@@ -11,10 +11,11 @@
 .text-school-name{
     font-weight: bold;
     font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .text-school-description{
     font-size: 12px;
     text-align: justify;
-    
 }

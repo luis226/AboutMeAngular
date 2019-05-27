@@ -5,4 +5,5 @@ export class School {
     logo: String;
     name: String;
     description: String;
+    orientation: String;
   }
